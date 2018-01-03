@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments::header"></head>
+<body>
+
+<div th:replace="fragments::menu"/>
+
+<div class="container content">
+        <h1>User</h1>
+        <ul>
+            <li class="title">Name</li>
+            <li class="c" th:text="${name}"></li>
+            <li class="title">Email address:</li>
+            <li class="c" th:text="${email}"></li>
+        </ul>
+</div>
+
+</body>
+</html>

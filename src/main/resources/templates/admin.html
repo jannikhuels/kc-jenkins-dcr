@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments::header"></head>
+<body>
+
+<div th:replace="fragments::menu"/>
+
+<div class="container content">
+        <h1>Admin</h1>
+        <ul>
+            <li class="title">Identity Token</li>
+            <li class="c" th:text="${identityToken}"></li>
+            <li class="title">Access Token</li>
+            <li class="c" th:text="${accessToken}"></li>
+        </ul>
+</div>
+
+</body>
+</html>

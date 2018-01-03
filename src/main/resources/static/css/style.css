@@ -1,0 +1,56 @@
+body {
+    padding: 20px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.text-center ul {
+    list-style-type: none;
+}
+
+.text-center li {
+    padding: 30px;
+    font-size: 35px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+}
+
+.content li.title {
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content li {
+    width:1000px;
+}
+
+.content li.c {
+    border: 1px solid #BABABA;
+    background-color: #E3E3E3;
+    padding:10px;
+    font-size:15px;
+    font-size:bold;
+
+
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP printers */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+    word-break: break-all;
+}
